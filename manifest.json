@@ -1,0 +1,22 @@
+{
+  "name": "Gestor de Propiedades",
+  "short_name": "Propiedades",
+  "description": "Gestión de contratos y rentas inmobiliarias",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0f2f6",
+  "theme_color": "#1976d2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/72x72/1f3e0.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn.jsdelivr.net/npm/twemoji@14.0.2/assets/72x72/1f3e0.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
