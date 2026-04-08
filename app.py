@@ -195,6 +195,7 @@ def guardar_en_supabase(datos: dict, reglamento_bytes=None, reglamento_nombre=No
     return contrato_id
 
 def eliminar_contrato(cid: str):
+    supabase.table("pagos").delete().eq("contrato_id", cid).execute()
     supabase.table("contratos").delete().eq("id", cid).execute()
 
 def _pdf_path(cid: str) -> str:
